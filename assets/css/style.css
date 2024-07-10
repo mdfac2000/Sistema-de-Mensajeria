@@ -1,0 +1,25 @@
+.all-chat {
+  display: flex;
+}
+
+.main-section {
+  background-color: #fff;
+}
+
+.side-bar {
+  background-color: #e8ebe4;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-chat {
+  background-color: #A491D2;
+  height: 2.5em;
+  width: 15em;
+  border: none;
+  color: #fff;
+}
+
+.btn-chat:hover {
+  background-color: #cdc3e6;
+}
