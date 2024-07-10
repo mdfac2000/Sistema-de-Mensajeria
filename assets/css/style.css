@@ -1,15 +1,44 @@
-.all-chat {
-  display: flex;
+/* CSS reseteo de formato */
+html{
+  box-sizing: border-box;
 }
 
-.main-section {
-  background-color: #fff;
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
-.side-bar {
-  background-color: #e8ebe4;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+/* CSS de proyecto */
+.all-chat {  
   display: flex;
-  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.side-bar {  
+  background-color: #FFF;
+  width: 400px;
+  
+}
+
+.main-section {  
+  background-color: #E8EBE4;
+  width: 100%;
+ 
 }
 
 .btn-chat {
@@ -18,8 +47,26 @@
   width: 15em;
   border: none;
   color: #fff;
+
 }
 
 .btn-chat:hover {
   background-color: #cdc3e6;
 }
+
+.profile{
+ display: flex;
+}
+
+.avatar{
+  border-radius: 50%; 
+  width: 50px; 
+  height: 50px;
+}
+
+.state{
+  font-size: 10px;
+  color: grey;
+}
+
+
